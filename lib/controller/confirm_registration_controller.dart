@@ -1,4 +1,4 @@
-import 'dart:ffi';
+
 
 import 'package:get/get.dart';
 
@@ -11,9 +11,9 @@ class ConfirmRegistrationController extends GetxController{
 
   @override
   void onInit() {
-    // TODO: implement onInit
+    
     super.onInit();
-    final arguments = Get.arguments; // Menangkap data dari tampilan sebelumnya
+    final arguments = Get.arguments; 
     nama = arguments['name'];
     alamat = arguments['alamat'];
     selectedKlmn.value = arguments['selectedKlmn'];

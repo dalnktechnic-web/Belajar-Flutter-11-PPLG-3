@@ -1,7 +1,7 @@
 
 import 'package:application_project/controller/list_product_controller.dart';
-import 'package:application_project/models/product_models.dart';
 import 'package:application_project/controller/detail_product_controller.dart';
+import 'package:application_project/models/product_models.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -134,7 +134,6 @@ class DetailProductPages extends StatelessWidget {
                 onPressed: () {},
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.blue,
-
                     shape: RoundedRectangleBorder(
                       borderRadius:BorderRadius.circular(12),
                     )

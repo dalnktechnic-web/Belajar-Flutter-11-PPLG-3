@@ -5,6 +5,7 @@ import 'package:application_project/login_page.dart';
 import 'package:application_project/kalkulator_page.dart';
 import 'package:application_project/login_clone.dart';
 import 'package:application_project/pages/login_clone_fix.dart';
+import 'package:application_project/pages/main_menu_page.dart';
 import 'package:get/get.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: "Belajar Flutter",
-      initialRoute: Routes.productPage,
+      initialRoute: Routes.mainMenu,
       getPages: Routes.pages,
     );
   }
